@@ -1,0 +1,109 @@
+{
+  "meeting_metadata": {
+    "date": "2026-02-12",
+    "attendees": [],
+    "duration": "Unknown",
+    "topics": []
+  },
+  "epics": [
+    {
+      "epic_name": "Unnamed Feature",
+      "epic_description": "Feature for Unnamed Feature",
+      "priority": "Highest",
+      "scope": "facility-specific",
+      "tabs": [],
+      "tickets": [
+        {
+          "ticket_type": "backend_architecture",
+          "summary": "BE: Implement backend architecture of \"Unnamed Feature\"",
+          "priority": "High"
+        },
+        {
+          "ticket_type": "rbac_permissions",
+          "summary": "Adding RBAC permissions related to \"Unnamed Feature\"",
+          "priority": "High",
+          "details": {
+            "rbac": {
+              "User": {
+                "permissions": [],
+                "actions": [
+                  "sometimes get confused as to what happened",
+                  "go into the user management and make the modification over there and then change the role attribute, then it will make more sense",
+                  "just come and filter by role anyway"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "ticket_type": "nav_menu",
+          "summary": "FE: User should be able to view a new menu \"Unnamed Feature\" under \"Clinical\" in nav panel",
+          "priority": "High"
+        },
+        {
+          "ticket_type": "add_entity",
+          "summary": "User should be able to add a it",
+          "priority": "High",
+          "details": {
+            "entity_name": "it",
+            "fields": [
+              {
+                "name": "Sure",
+                "type": "Text field",
+                "mandatory": true
+              },
+              {
+                "name": "Claims management",
+                "type": "Text field",
+                "mandatory": true
+              },
+              {
+                "name": "By the way",
+                "type": "Text field",
+                "mandatory": true
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "action_items": [
+    {
+      "item": "ACTION ITEM: Update tickets: remove superadmin exception; rename sub-role Access; add Access filter; add Archive tab; archive modal; unarchive; move Facility Units - WATCH\nYeah, that's a great idea",
+      "owner": "TBD",
+      "due_date": "TBD"
+    },
+    {
+      "item": "ACTION ITEM: Add bulk-upload validation: no facilities for All Active; error rows to error file - WATCH\n\n\n@47:24 - bilal khalid (CarbonTeq)\nOkay, great",
+      "owner": "TBD",
+      "due_date": "TBD"
+    },
+    {
+      "item": "ACTION ITEM: Implement role-edit logic: All Active\u00e2\u2020\u2019assign all active; All Archive\u00e2\u2020\u2019block if no active; show toast; keep Facility dropdown - WATCH\n\n\n@1:08:41 - bilal khalid (CarbonTeq)\nSo yeah, instead of, like, even giving them the toast, what I was saying is that once you switch off that toggle of all active facilities, all users with that role will get assigned, like, all the available facilities that we have",
+      "owner": "TBD",
+      "due_date": "TBD"
+    },
+    {
+      "item": "ACTION ITEM: Implement login default for All Archive: switch to Archive; select newest terminated facility - WATCH\nSimilar situation would be for editing as well, when a user clicks on edit city in ellipses",
+      "owner": "TBD",
+      "due_date": "TBD"
+    },
+    {
+      "item": "ACTION ITEM: Cancel Feb 3 team meeting; cancel Tech Ops Feb 3 - WATCH\nSo I haven't had a chance",
+      "owner": "TBD",
+      "due_date": "TBD"
+    },
+    {
+      "item": "ACTION ITEM: Feed 1 ATEX data feed into Sandbox by Feb 9; notify Yair - WATCH\nNo, we can, it will be separate databases for production and Sandbox, yeah",
+      "owner": "TBD",
+      "due_date": "TBD"
+    },
+    {
+      "item": "to know that by Friday we are good, so I think what we should do is this, cancel the meeting tomorrow, Wednesday there's no meeting, Thursday you guys are off, I do think we need an ATEX meeting on Friday, with the goal of using Sandbox for the data to train on, Let me ask you really quickly, are we going to feed the data feed into Sandbox, or is that a separate database?\nACTION ITEM: Feed 1 ATEX data feed into Sandbox by Feb 9",
+      "owner": "TBD",
+      "due_date": "TBD"
+    }
+  ],
+  "clarifications_needed": []
+}
