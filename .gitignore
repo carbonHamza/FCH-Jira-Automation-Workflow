@@ -1,0 +1,52 @@
+# Transcript files - user-specific data
+transcripts/*.txt
+transcripts/*.json
+transcripts/*_structured.json
+transcripts/*_review.txt
+transcripts/*_tickets.json
+
+# Keep the transcripts directory structure
+!transcripts/.gitkeep
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Output files
+structured-output/*.json
+*.log
+
+# Sensitive files
+.env
+config.json
+credentials.json
+
+# Test files
+test_*.py
+*_test.py
+
+# Temporary files
+*.tmp
+*.bak
+*.backup
